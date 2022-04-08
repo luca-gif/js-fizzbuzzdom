@@ -16,10 +16,10 @@ for (let i = 1; i <= 100; i++) {
 
     if (i % 3 === 0) {
         div.classList.add("yellow");
-        div.append("Fizz");
+        div.append("Fizz!");
     } else if (i % 5 === 0) {
         div.classList.add("red");
-        div.append("Buzz");
+        div.append("Buzz!");
     } else {
         div.append(i);
     }
