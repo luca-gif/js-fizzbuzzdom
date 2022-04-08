@@ -7,4 +7,8 @@ for (let i = 1; i <= 100; i++) {
     } else {
         console.log(i);
     }
+
+    let container = document.querySelector(".container");
+
+    container.append(i);
 }
