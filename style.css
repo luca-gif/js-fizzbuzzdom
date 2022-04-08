@@ -3,20 +3,41 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 60%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    background-color: rgb(98, 98, 98);
+    background-color: rgb(71, 162, 193);
 }
 
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-color: orange;
-    border: 1px double black;
     margin: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px 2px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 255, .4);
+    color: aliceblue;
+    box-shadow: inset 0 0 3px 1px white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.violet {
+    background-color: blueviolet;
 }
