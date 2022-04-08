@@ -8,7 +8,12 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 
-    let container = document.querySelector(".container");
+    const container = document.querySelector(".container");
+    const div = document.createElement("div");
 
-    container.append(i);
+    div.className = "box";
+
+    div.append("Hello!");
+
+    container.append(div);
 }
